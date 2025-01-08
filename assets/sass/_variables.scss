@@ -55,10 +55,10 @@ $global-container-padding: 0 20px !default;
 $global-lineheight: 1.5 !default;
 
 // Font family of the site.
-$global-font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif !default;
+$global-font-family: 'Noto Serif SC', serif !default;
 
 // Serif font family of the site.
-$global-serif-font-family: Athelas, STHeiti, Microsoft Yahei, serif !default;
+$global-serif-font-family: 'Noto Sans SC', sans-serif !default;
 
 // Background color of the site.
 $global-background: $white !default;
@@ -96,7 +96,8 @@ $header-padding: 20px 20px !default;
 $logo-font-size: 48px !default;
 
 // Font family of the logo.
-$logo-font-family: 'Chancery', cursive, LiSu, sans-serif !default;
+$logo-font-family: 'Noto Serif Display', serif !default;
+$logo-font-family-mobile: 'Source Serif 4', serif !default;
 
 // Margin of menu item.
 $menu-item-margin-left: 10px !default;
@@ -125,6 +126,7 @@ $post-title-font-size: 27px !default;
 
 // Font weight of post title.
 $post-title-font-weight: 400 !default;
+$post-subtitle-font-weight: 400 !default;
 
 // Margin top of the post meta (post time).
 $post-meta-margin-top: 5px !default;

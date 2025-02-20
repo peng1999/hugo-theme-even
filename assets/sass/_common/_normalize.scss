@@ -200,8 +200,16 @@ svg:not(:root) {
  * Address margin not present in IE 8/9 and Safari.
  */
 
-figure {
-  margin: 1em 40px;
+@media screen and (min-width:800px) {
+  figure {
+    margin: 1em 40px;
+  }
+}
+
+@media screen and (max-width:800px) {
+  figure {
+    margin: 1em 4px;
+  }
 }
 
 /**
